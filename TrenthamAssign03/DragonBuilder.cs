@@ -39,7 +39,20 @@ namespace TrenthamAssign03
                 good = false;
             }
 
-            dragon = new Dragon(name, type, size, good);
+            if (type == "Green" || type == "green")
+            {
+                EmeraldDragon dragon = new EmeraldDragon(name, size, good);
+            }
+            
+            else if (type == "Blue" || type == "blue")
+            {
+                SapphireDragon dragon = new SapphireDragon(name, size, good);
+            }
+
+            else if (type == "Red" || type == "red")
+            {
+                RubyDragon dragon = new RubyDragon(name, size, good);
+            }
         }
 
         public Dragon GetDragon()
