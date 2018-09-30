@@ -17,7 +17,7 @@ namespace TrenthamAssign03
             DragonBuilder builder = new DragonBuilder();
             string choice = "";
 
-            while (choice != "7")
+            while (choice != "9")
             {
                 Console.WriteLine("\n\nThis Program is case specific!" +
                              "1. Add a dragon \n" +
@@ -26,7 +26,9 @@ namespace TrenthamAssign03
                              "4. Find the largest dragon of a type\n" +
                              "5. Get the count of good\n" +
                              "6. Get the count of bad dragons\n" +
-                             "7. Quit");
+                             "7. Display all Dragons\n" +
+                             "8. Display Dragons larger than a specific size\n" +
+                             "9. Quit");
                 choice = Console.ReadLine();
 
                 switch (choice)
@@ -55,6 +57,17 @@ namespace TrenthamAssign03
                         Console.WriteLine($"There are {dignity.GetBad()} bad dragons in the dignity.");
                         break;
                     case "7":
+                        dignity.GetAllDragons();
+                        break;
+                    case "8":
+                        Console.WriteLine("Please enter a size in feet.");
+                        string size = Console.ReadLine();
+                        decimal Size = Convert.ToDecimal(size);
+                        dignity.GetLargerThanSize(Size);
+                        break;
+
+
+                    case "9":
                         Console.WriteLine("Program ending...");
                         System.Environment.Exit(0);
                         break;

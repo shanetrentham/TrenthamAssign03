@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace TrenthamAssign03
 {
-    class EmeraldDragon
+    class EmeraldDragon : Dragon
     {
-        public bool Good { get; private set; }
-        public string Name { get; private set; }
-        public decimal Size { get; private set; }
-        public string Type = "Green";
 
-        public EmeraldDragon(string name, decimal size, bool good)
+        public EmeraldDragon(string name, decimal size, bool good) : base(name, "Green", size, good)
         {
-            Name = name;
-            Size = size;
-            Good = good;
+            Type = "Green";
         }
 
         public override string ToString()

@@ -101,5 +101,27 @@ namespace TrenthamAssign03
             }
             return total;
         }
+        public void GetAllDragons()
+        { 
+            foreach(var dragon in dignity)
+            {
+                Console.WriteLine(dignity.ToString());
+            }
+        }
+
+        public void GetLargerThanSize(decimal size)
+        {
+            foreach(Dragon dragon in dignity)
+            {
+                if (dragon.GetSize() > size)
+                {
+                    Console.WriteLine(dragon.ToString());
+                }
+                else
+                    Console.WriteLine($"There are no dragons larger than {size} feet");
+            }
+
+
+        }
     }
 }

@@ -1,1 +1,7 @@
 C:\Users\shane\OneDrive\Documents\CSCI 3005\Completed Assignments\TrenthamAssign3\TrenthamAssign03\TrenthamAssign03\bin\Debug\TrenthamAssign03.exe.config
+C:\Users\shane\OneDrive\Documents\CSCI 3005\Projects\TrenthamAssign03\TrenthamAssign03\TrenthamAssign03\bin\Debug\TrenthamAssign03.exe.config
+C:\Users\shane\OneDrive\Documents\CSCI 3005\Projects\TrenthamAssign03\TrenthamAssign03\TrenthamAssign03\bin\Debug\TrenthamAssign03.exe
+C:\Users\shane\OneDrive\Documents\CSCI 3005\Projects\TrenthamAssign03\TrenthamAssign03\TrenthamAssign03\bin\Debug\TrenthamAssign03.pdb
+C:\Users\shane\OneDrive\Documents\CSCI 3005\Projects\TrenthamAssign03\TrenthamAssign03\TrenthamAssign03\obj\Debug\TrenthamAssign03.csprojResolveAssemblyReference.cache
+C:\Users\shane\OneDrive\Documents\CSCI 3005\Projects\TrenthamAssign03\TrenthamAssign03\TrenthamAssign03\obj\Debug\TrenthamAssign03.exe
+C:\Users\shane\OneDrive\Documents\CSCI 3005\Projects\TrenthamAssign03\TrenthamAssign03\TrenthamAssign03\obj\Debug\TrenthamAssign03.pdb
